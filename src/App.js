@@ -1,12 +1,12 @@
 import AboutUs from "./pages/AboutUs";
+import ServicesSection from "./components/ServicesSetion";
 
 function App() {
   return (
-    <div className="App">
-      <div>
-        <AboutUs />
-      </div>
-    </div>
+    <>
+      <AboutUs />
+      <ServicesSection />
+    </>
   );
 }
 
